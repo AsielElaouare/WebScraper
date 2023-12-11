@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "Eo9Vr+14Bq8/BO9vfwo97miicpetTVs/G2Goim97sEFR6p3s0JfF0tSRBsCpv3sZP7QlFkq5FUkuCWq+/0sh4g==",
+  "success": true,
+  "projectFilePath": "/Users/asiel/WebScraper/WebScraper.csproj",
+  "expectedPackageFiles": [
+    "/Users/asiel/.nuget/packages/htmlagilitypack/1.11.54/htmlagilitypack.1.11.54.nupkg.sha512",
+    "/Users/asiel/.nuget/packages/microsoft.netcore.app.ref/7.0.14/microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
+    "/Users/asiel/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.14/microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512",
+    "/Users/asiel/.nuget/packages/microsoft.netcore.app.host.osx-x64/7.0.14/microsoft.netcore.app.host.osx-x64.7.0.14.nupkg.sha512"
+  ],
+  "logs": []
+}

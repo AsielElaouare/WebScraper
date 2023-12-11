@@ -1,0 +1,17 @@
+/Users/asiel/WebScraper/bin/Debug/net7.0/WebScraper
+/Users/asiel/WebScraper/bin/Debug/net7.0/WebScraper.deps.json
+/Users/asiel/WebScraper/bin/Debug/net7.0/WebScraper.runtimeconfig.json
+/Users/asiel/WebScraper/bin/Debug/net7.0/WebScraper.dll
+/Users/asiel/WebScraper/bin/Debug/net7.0/WebScraper.pdb
+/Users/asiel/WebScraper/obj/Debug/net7.0/WebScraper.csproj.AssemblyReference.cache
+/Users/asiel/WebScraper/obj/Debug/net7.0/WebScraper.GeneratedMSBuildEditorConfig.editorconfig
+/Users/asiel/WebScraper/obj/Debug/net7.0/WebScraper.AssemblyInfoInputs.cache
+/Users/asiel/WebScraper/obj/Debug/net7.0/WebScraper.AssemblyInfo.cs
+/Users/asiel/WebScraper/obj/Debug/net7.0/WebScraper.csproj.CoreCompileInputs.cache
+/Users/asiel/WebScraper/obj/Debug/net7.0/WebScraper.dll
+/Users/asiel/WebScraper/obj/Debug/net7.0/refint/WebScraper.dll
+/Users/asiel/WebScraper/obj/Debug/net7.0/WebScraper.pdb
+/Users/asiel/WebScraper/obj/Debug/net7.0/WebScraper.genruntimeconfig.cache
+/Users/asiel/WebScraper/obj/Debug/net7.0/ref/WebScraper.dll
+/Users/asiel/WebScraper/bin/Debug/net7.0/HtmlAgilityPack.dll
+/Users/asiel/WebScraper/obj/Debug/net7.0/WebScraper.csproj.CopyComplete
