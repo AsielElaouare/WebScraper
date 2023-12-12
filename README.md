@@ -3,7 +3,7 @@
 
 
 ## Overview
-This C# script empowers you to effortlessly extract valuable information from web pages. With a focus on simplicity and effectiveness, it not only scrapes web content but also provides the functionality to save results to text files for easy analysis and reference.
+This C# Console App empowers you to effortlessly extract valuable information from web pages. With a focus on simplicity and effectiveness, it not only scrapes web content but also provides the functionality to save results to text files for easy analysis and reference.
 
 ## Features
 
