@@ -4,9 +4,12 @@ using System.IO;
 using System.Net;
 using System.Reflection.Metadata;
 using System.Threading.Tasks.Dataflow;
+using CsvHelper;
+using System.Globalization;
 using HtmlAgilityPack;
 
-namespace WebScraper // Note: actual namespace depends on the project name.
+
+namespace WebScraper 
 {
     internal class Program
     {
@@ -20,21 +23,42 @@ namespace WebScraper // Note: actual namespace depends on the project name.
 
         void Start(){
 
-            //ScrapeLinks() Scrapes anchors values in a given page and saves result in a given text file.
-            //ScrapeText() Scrapes inner text from a given xpath and saves it in a given text file.
+            //ScrapeLinks(); functionality done.
+            //ScrapeTextToTxtFile() functionality done.
+            //ScrapeTextToCsvFile() Still under development
             
         }
 
+        
 
-        void ScrapeText(string url, string xPath, string filename){
+
+        void ScrapeTextToCsvFile(string url, string xPath, string filename){
             
             List<string> scrapedText = ScrapeInnerText(url, xPath);
-            ExportInnerTextToFile(scrapedText, filename);
+            ExportInnerTextToCsvFile(scrapedText, filename);
             
         }
 
-        void ExportInnerTextToFile(List<string> listOfInnerTexts, string filename){
-            StreamWriter writer = new StreamWriter(filename);
+        void ScrapeTextToTxtFile(string url, string xPath, string filename){
+            
+            List<string> scrapedText = ScrapeInnerText(url, xPath);
+            ExportInnerTextToTxtFile(scrapedText, filename);
+            
+        }
+
+        void ExportInnerTextToCsvFile(List<string> listOfInnerTexts, string filename){
+            
+            using(StreamWriter writer = new StreamWriter($"{filename}.csv"))
+            using (var csv = new CsvWriter(writer, CultureInfo.InvariantCulture)) 
+			{ 
+				// populating the CSV file 
+				csv.WriteRecords(listOfInnerTexts); 
+			} 
+        
+        }
+
+        void ExportInnerTextToTxtFile(List<string> listOfInnerTexts, string filename){
+            StreamWriter writer = new StreamWriter($"{filename}.txt");
 
             foreach(string text in listOfInnerTexts){
                 writer.WriteLine(text);
@@ -56,7 +80,9 @@ namespace WebScraper // Note: actual namespace depends on the project name.
             }
             else
             {
-                System.Console.WriteLine($"{xPath} not found in this URL: {url}");
+                Console.ForegroundColor = ConsoleColor.Red;
+                System.Console.WriteLine($"XPath not found in this URL: {url}");
+                Console.ResetColor();
             }
         
 
