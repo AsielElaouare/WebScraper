@@ -20,9 +20,7 @@ namespace WebScraper
             string filename;
             WebsiteAttributes website = ReadUserInput(out filename);
 
-            // Commenting out the following line as it's not defined in the provided code
             // ScrapeLinks(website.Url, website.XPath, filename);
-
             // Commenting out the following line as it's marked as under development
             // ScrapeTextToCsvFile(website.Url, website.XPath, filename);
         }
