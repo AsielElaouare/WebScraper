@@ -1,6 +1,6 @@
 # WebScraper
 [![C#](https://img.shields.io/badge/Language-C%23-blue?style=for-the-badge&logo=c-sharp&logoColor=white)](https://docs.microsoft.com/en-us/dotnet/csharp/)
-[![Project Status: Development](https://img.shields.io/badge/Project%20Status-Development-yellow?style=for-the-badge)](https://your-project-url)
+[![Project Status: Development](https://img.shields.io/badge/Project%20Status-Development-yellow?style=for-the-badge)](https://your-project-url) ![.NET Badge](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white) ![Windows Badge](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white) ![Mac Badge](https://img.shields.io/badge/MacOS-000000?style=for-the-badge&logo=apple&logoColor=white) ![Linux Badge](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
 
 
